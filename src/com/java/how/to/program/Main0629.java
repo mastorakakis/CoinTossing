@@ -26,14 +26,13 @@ public class Main0629 {
     public static void main(String[] args) {
         char choice = 'a';
         CoinSide side;
-//        while (choice == 'a') {
-        for (int i = 0; i < 1000000; i++) {
-//            System.out.println("Press:");
-//            System.out.println("'a' to TOSS a coin or 'other' to EXIT");
-//            choice = (char) sc.next().charAt(0);
+        while (choice == 'a') {
+            System.out.println("Press:");
+            System.out.println("'a' to TOSS a coin or 'other' to EXIT");
+            choice = (char) sc.next().charAt(0);
             if (choice == 'a') {
                 side = flip();
-//                System.out.println(side);
+                System.out.println(side);
                 if (side == CoinSide.HEADS) {
                     countHeads++;
                 } else {
@@ -41,7 +40,6 @@ public class Main0629 {
                 }
             }
         }
-        System.out.println("Toss a coin 1 million times");
         System.out.println("");
         System.out.println("Number of Heads: " + countHeads);
         System.out.println("Number of Tails: " + countTails);

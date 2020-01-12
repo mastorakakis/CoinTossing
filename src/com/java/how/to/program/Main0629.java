@@ -5,7 +5,7 @@ number of times each side of the coin appears. Display the results. The program
 should call a separate method flip that takes no arguments and returns a value
 from a Coin enum (HEADS and TAILS). [Note: If the program realistically
 simulates coin tossing, each side of the coin should appear approximately half
-the time.]
+the time]
  */
 package com.java.how.to.program;
 
